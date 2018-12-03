@@ -1,24 +1,10 @@
-# README
+# Basic BDD stack setup for Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+-> clone this repo
+-> bundle install
+-> bundle exec cucumber
 
-Things you may want to cover:
 
-* Ruby version
+* Support to visit external websites and perform capybara operations.
+* External Base url is set to 'https://www.google.com' in support/env.rb
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
